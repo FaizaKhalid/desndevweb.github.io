@@ -158,7 +158,11 @@ footer {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+
   /* Header */
+  #header-nav{
+    width: 100%;
+  }
 
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
